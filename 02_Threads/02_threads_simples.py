@@ -5,12 +5,12 @@ import time
 def main():
     th = threading.Thread(target=contar, args=('elefante', 10))  # 2
 
-    th.start()  # adiciona a thread na pool de threads para pronto.  #3
+    th.start()
 
-    print('Podemos fazer outras coisas no programa enquanto a thread vai executando...')
+    print('Podemos fazer outras coisas enquanto a thread vai executando...')
     print('Dlc Tecnologia' * 2)
 
-    th.join()  # avisa para ficar aguardando aqui até athread terminar a execução  #4
+    th.join()
 
     print('Pronto!')
 
