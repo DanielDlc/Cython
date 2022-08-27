@@ -1,0 +1,22 @@
+- Código fonte -> Compiler -> Bytecode -> Python Virtual Macrine
+" Quando executamos um programa Python
+O Interpretador Python cria um processo no sistema operacional;
+O Processo Python cria uma thread para executar o código "
+
+- Concorrência em Python
+" versão 1.5 foi introduzida as threading,
+versão 2.6 foi introduza multiprocessing
+(podemos executar o códigoconcorrente e paralela evitando GIL)
+Gil faz um bloqueio de threading.
+versão 3.2 foi introduza concorrent.futures
+versão 3.4 foi introduzida asyncio (para ter suporte a programação assíncrona)
+versão "
+
+- Gil
+" Recursos de bloqueio que previne múltiplas threads nativas executem um código
+Mantendo as threads seguras
+Quando rodamos um programa python, ao executar uma thread o Gil é ativado, 
+prendendo o código em execução.
+Python não é Thread Safe.
+Podemos escapar do GIl fazendo uso de multiprocessos, pois cada thread é 
+executada em um processo separado "
