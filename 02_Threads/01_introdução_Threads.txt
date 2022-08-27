@@ -1,0 +1,22 @@
+- Threads, também chamado de linha de execução
+
+" Foram os primeiros recursos criados para realizar programação concorrente,
+fazendo uso então de múltiplas threads. "
+
+" Quando executamos um programa, é criado um processo.
+Ou seja, um processo nada mais é do que a instância de um programa 
+sendo executado. "
+
+" Além disso, cada processo sendo executado tem um conjunto de recursos.
+Um processo é composto por uma ou mais threads (linha de execução). "
+
+- Threads
+" Um thread ou linha de execução, é a menor sequência de instruções que pode
+ser gerenciada pelo sistema operacional. "
+
+" Um programa pode ser executado por uma simples thread ou por múltiplas threads.
+Ou seja, podemos ter uma thread ou  mais threads em um processo. "
+
+" Qaundo o computador dispõe de múltiplos cores, cada thread 
+pode ser executada em paralelo. Caso contrário, 
+mesmo que haja múltiplas threads elas serão executadas de forma sequencial. "
