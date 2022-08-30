@@ -1,0 +1,16 @@
+- Multiprocessamento
+“Quando criamos um programa python, sabemos que é criado um processo, 
+e para este processo é criada uma thread principal.
+
+Podemos criar múltiplas threads, mas estaremos sujeitos ao GIL do Python 
+que bloqueia parte do código para que apenas uma thread execute ao mesmo tempo.
+
+O Multiprocessamento é fundamental para resolver esse problema, 
+pois podemos quebrar esse programa em multiprocesso, 
+e cada processo terá seu próprio recurso e memória com uma thread principal.
+
+O Multiprocessamento não remove o problema do GIL de uma thread, 
+mas agora uma thread não fica bloqueada pois são independentes, 
+processos diferentes. Sendo assim, ocorre de forma mais rápida.”
+
+
