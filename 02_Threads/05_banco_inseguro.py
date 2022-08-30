@@ -1,3 +1,8 @@
+"""
+Este modelo é funcional apenas com uma thread.
+No entanto, foi utilizado mais de uma para ver o erro, por conta do Gil
+"""
+
 import threading
 import random
 import time
