@@ -13,4 +13,23 @@ O Multiprocessamento não remove o problema do GIL de uma thread,
 mas agora uma thread não fica bloqueada pois são independentes, 
 processos diferentes. Sendo assim, ocorre de forma mais rápida.”
 
+- Processos vs Threads
+“Um processo cria uma thread, 
+chama de thread principal para executar o programa.
+
+Um processo pode ter múltiplas threads. 
+Qualquer thread além da principal será “filha” da thread principal.
+
+As threads de um processo compartilham recursos e memória entre si.
+No entanto, as threads/processos não compartilham recursos e memória de outros 
+processos/threads. Existem outras formas é claro, porém fora do escopo atual.
+
+Quando ativamos um lock (acquire), estamos avisando 
+que nenhuma thread pode acessar um determinado recurso 
+até que o lock seja liberado (release).
+
+Logo, quando criamos um processo, é criada um thread principal. 
+Sendo assim, todo processo terá pelo menos uma thread para executar o programa.
+Separando a execução de um programa em multiprocessos ao invés de multithread 
+evitamos que o GIL bloqueio a execução em paralelo.”
 
