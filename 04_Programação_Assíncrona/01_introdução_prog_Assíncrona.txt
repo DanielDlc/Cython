@@ -1,0 +1,30 @@
+- Programação Assíncrona
+“Quando falamos em concorrência, podemos dividir em dois tipos principais, 
+sendo programação Paralela e a programação Assíncrona.
+Na Programação paralela, nós temos threads e multiprocessos.
+
+Já na programação Assíncrona, é utilizada em operações de leitura ou escrita 
+em dispositivos IO – Input / Output.
+Ou seja, em operações que podem ser lentas e dependem de um retorno de execução, 
+que pode ser sucesso ou falho.”
+
+Quando executamos um programa, ele pode ter “partes” que precisam ser executadas de forma assíncrona.
+Ao executar um programa, temos a thread principal e alguns blocos 
+que precisam ser executados de forma assíncrona, 
+quando o processador vai na linha de execução das threads para executar os códigos 
+e encontra partes que precisam ser executados de forma assíncrona, 
+ele envia essa parte para uma thread secundária.
+
+Ao consultar um banco de dados ou acessar uma “API”, 
+existe uma demora na execução. Assim, o processador não fica aguardando, 
+ele envia para uma outra thread secundária e vai para o próximo evitando Bloqueio.
+
+Em algumas linguagens de programação, ao invés de utilizar funções de call-back 
+são utilizados outros objetos com operações incompletas conhecidos como 
+promises, futures ou simplesmente tarefa (task).
+
+A programação assíncrona é mais bem utilizada em tarefas que exigem uso intensivo de IO como:
+- Leitura ou escrita em banco de dados;
+- Chamadas à Web Services (APIs);
+- Cópia, upload ou download de dados;
+Basicamente, qualquer coisa que leva um certo tempo para ser executado que usa IO.
