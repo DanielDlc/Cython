@@ -28,3 +28,31 @@ A programação assíncrona é mais bem utilizada em tarefas que exigem uso inte
 - Chamadas à Web Services (APIs);
 - Cópia, upload ou download de dados;
 Basicamente, qualquer coisa que leva um certo tempo para ser executado que usa IO.
+
+Resumindo...
+- Combinando corrotinas com threads e processos
+“A função de um programador é utilizar os recursos que conhece, 
+ou buscar recursos para resolver problemas de computação”.
+
+Além disso, para casa problema a ser resolvido, existem várias possibilidades de solução.
+
+Isso significa que não existe uma fórmula mágica ou receita de bolo 
+onde você simplesmente vai ser um passo a passo e tudo estará resolvido
+
+Trabalhar com threads diretamente não é muita vantagem, 
+podemos sempre optar por multiprocessos e programação assíncrona.
+No entanto, precisamos estar bem alinhados com o tipo de concorrência 
+pois um problema de multiprocesso é diferente de um problema que pode ser resolvido 
+com programação assíncrona.
+
+- Programação paralela tem sua melhor utilização em tarefas que fazem 
+o uso excessivo da CPU/GPU
+
+- Utilização do Multiprocessing (Blocking)
+Operações em strings, Algoritmos de busca, Processamento gráfico, 
+Algoritmos de Processamento numérico, entre outros.
+
+- Progamação Assíncrona
+A Programação assíncrona é mais bem utilizada em tarefas que exigem uso intensivo de IO
+Leitura e escrita no banco de dados, chamadas à web services (APIs), 
+Cópia, upload ou download de dados, entre outros.
