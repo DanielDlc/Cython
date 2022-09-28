@@ -17,7 +17,7 @@ async def exemplo_arquivo_02():
 
 def main():
     el = asyncio.get_event_loop()
-    el.run_until_complete(exemplo_arquivo_02())
+    el.run_until_complete(exemplo_arquivo_01())
     el.close()
 
 
