@@ -1,0 +1,26 @@
+- Cython
+“A principal implementação da linguagem Python, chamada de cPython, 
+é escrita na linguagem de programação C.
+Inclusive se você sabe programar em C ou C++ você pode estender a linguagem Python 
+criando seus próprios módulos.”
+
+- Bibliotecas como Numpy e partes de SQLAlchemy são escritas em C, 
+para ser utilizada em python.
+
+- Cython é um compilador estático otimizado para a linguagem de programação Python, 
+tornando a escrita de extensões C para Python tão fácil quanto o próprio Python.
+Documentação para quem usa linguagem C: https://docs.python.org/pt-br/3/extending/extending.html
+Site do Cython:  https://cython.org/
+
+- Escrevendo o código em Cython, ao compilarmos o programa, 
+o código é transformado em linguagem C e então compilado para linguagem de máquina, 
+da mesma forma que ocorre quando escrevemos código em linguagem C.
+Ou seja, você não precisa conhecer a linguagem C 
+para escrever código extremamente performático compilado para a máquina.
+
+- Podemos escrever código Python que facilmente se comunica com códigos nativos em C/C++;
+- Podemos facilmente adicionar performance extrema comparável à linguagem C ao nosso código bastante adicionar algumas declarações estáticas de tipo de dados;
+- É possível integrar facilmente o debug de código, tanto da parte em Python, quanto Cython e linguagem C;
+- Pode fazer uso ediciente de quantidades gigantes de dados, assim como Numpy consegue fazer;
+- A biblioteca Cython é madura e bastante utilizada no mundo Python 
+- Você pode integrar Cython nativamente com qualquer outra biblioteca Python;
