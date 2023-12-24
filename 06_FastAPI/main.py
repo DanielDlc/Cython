@@ -28,3 +28,13 @@ async def buscar_produto(id: int):
         if produto.id == id:
             return produto
     return None
+
+@app.put('/produtos/{id}')
+async def atualizar_produto(id: int, produto: Produto):
+    for prod in produtos:
+        if prod.id == id:
+            prod = produto
+
+            return prod
+        
+    return None
