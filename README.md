@@ -1,4 +1,4 @@
-Welcome to Cython!
+Cython
 ==================
 
 Cython is a Python compiler that makes writing C extensions for
@@ -149,7 +149,8 @@ Copyright stuff: Pyrex is free of restrictions. You
 may use, redistribute, modify and distribute modified
 versions.
 
-The latest version of Pyrex can be found `here <https://www.cosc.canterbury.ac.nz/~greg/python/Pyrex/>`_.
+The latest version of Pyrex can be found 
+* Official website: https://www.cosc.canterbury.ac.nz/~greg/python/Pyrex/
 
 | Greg Ewing, Computer Science Dept
 | University of Canterbury
